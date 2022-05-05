@@ -1,8 +1,8 @@
-#TopicLog
+# TopicLog
 TopicLog is a small and simple java logging framework.
 
-##Concepts
-###topic.Topic
+## Concepts
+### topic.Topic
 A topic is something you want to log about. It can be performance, http-requests to the application,
 database queries, ... .
 
@@ -10,7 +10,7 @@ database queries, ... .
 This is a concept that is used by other logging frameworks. Logging levels do not exist in topic.Topic Log.
 If you want to log about errors that occur, warnings or debug information then you should define topics for them.
 
-##Features
+## Features
 You can log information about a topic:
 * to the standard output (stdout)
 * to the standard error (stderr)
